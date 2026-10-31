@@ -1,0 +1,41 @@
+{
+  "name": "nanosite",
+  "description": "Claude Code plugins by nanosite.ai.",
+  "owner": {
+    "name": "nanosite.ai",
+    "url": "https://nanosite.ai"
+  },
+  "plugins": [
+    {
+      "name": "nanoflow",
+      "source": {
+        "source": "github",
+        "repo": "nanosite-ai/nanoflow"
+      },
+      "description": "By nanosite.ai. Your dev workflow, live: worktrees on their own ports, tickets, PRs/CI, checks and Playwright as a dashboard pane, a progress status line and toasts, plus dev skills.",
+      "author": {
+        "name": "nanosite.ai",
+        "url": "https://nanosite.ai"
+      },
+      "homepage": "https://github.com/nanosite-ai/nanoflow",
+      "license": "MIT",
+      "category": "development"
+    },
+    {
+      "name": "nanodev",
+      "source": {
+        "source": "git-subdir",
+        "url": "nanosite-ai/nanodev",
+        "path": "plugin"
+      },
+      "description": "By nanosite.ai. Skills for working on a nano-site store or website locally: the nanodev loop, store SSR and SDK patterns, website pages, hydration debugging.",
+      "author": {
+        "name": "nanosite.ai",
+        "url": "https://nanosite.ai"
+      },
+      "homepage": "https://github.com/nanosite-ai/nanodev",
+      "license": "MIT",
+      "category": "development"
+    }
+  ]
+}
